@@ -1,0 +1,56 @@
+/* Reset everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Make page full screen */
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f4f6;
+  color: black;
+}
+
+/* Main container takes full screen */
+.app {
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header full width */
+.header {
+  width: 100%;
+  background-color: #dbeafe;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Horizontal section full width */
+.section {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+/* Footer full width */
+.footer {
+  width: 100%;
+  background-color: #e5e7eb;
+  color: black;
+  text-align: center;
+  padding: 18px;
+  font-size: 15px;
+}
