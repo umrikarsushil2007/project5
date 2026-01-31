@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/umrikarsushil2007/project5.github.io",
+  "homepage": "https://umrikarsushil2007.github.io/project5/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

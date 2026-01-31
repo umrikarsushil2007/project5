@@ -7,10 +7,10 @@ export default class App extends Component {
     super();
     this.state = {
       courses: [
-        { name: "Data Structure and Algorithms", duration: "40hrs", price: "Rs.100", img: "jpg1.jpg" },
-        { name: "Java Programming", duration: "40hrs", price: "Rs.100", img: "jpg2.png" },
-        { name: "React JS", duration: "40hrs", price: "Rs.100", img: "jpg3.jpg" },
-        { name: "Machine Learning", duration: "40hrs", price: "Rs.100", img: "jpg4.png" },
+        { name: "Data Structure and Algorithms", duration: "40hrs", price: "Rs.100", img: "/jpg1.jpg" },
+        { name: "Java Programming", duration: "40hrs", price: "Rs.100", img: "/jpg2.png" },
+        { name: "React JS", duration: "40hrs", price: "Rs.100", img: "/jpg3.jpg" },
+        { name: "Machine Learning", duration: "40hrs", price: "Rs.100", img: "/jpg4.png" },
       ]
     };
   }
